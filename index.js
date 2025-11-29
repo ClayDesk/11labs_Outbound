@@ -26,6 +26,22 @@ const fastify = Fastify();
 fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
+// Call rate limiter
+const rateLimiter = {
+  maxCallsPerMinute: 10,
+  callTimestamps: [],
+};
+
+function canMakeCall() {
+  const now = Date.now();
+  // Remove timestamps older than 1 minute
+  rateLimiter.callTimestamps = rateLimiter.callTimestamps.filter(t => now - t < 60000);
+  return rateLimiter.callTimestamps.length < rateLimiter.maxCallsPerMinute;
+}
+
+function recordCallAttempt() {
+  rateLimiter.callTimestamps.push(Date.now());
+}
 // Initialize Twilio client
 const twilioClient = Twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 // Call analytics tracking
@@ -210,3 +226,4 @@ fastify.listen({ port: PORT }, (err) => {
   }
   console.log(`[Server] Listening on port ${PORT}`);
 });
+
