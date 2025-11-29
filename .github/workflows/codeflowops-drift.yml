@@ -55,13 +55,17 @@ jobs:
           fi
           
           # Call CodeFlowOps API
+          OWNER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
+          REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          
           RESPONSE=$(curl -s -X POST "https://codeflowops.com/api/drift/check" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.CODEFLOWOPS_API_KEY }}" \
             -d "{
               \"manifest\": $MANIFEST,
               \"changedFiles\": $CHANGED_FILES,
-              \"repo\": \"${{ github.repository }}\",
+              \"owner\": \"$OWNER\",
+              \"repo\": \"$REPO_NAME\",
               \"sha\": \"${{ github.sha }}\",
               \"event\": \"${{ github.event_name }}\"
             }")
@@ -98,3 +102,5 @@ jobs:
               repo: context.repo.repo,
               body: body
             });
+
+
