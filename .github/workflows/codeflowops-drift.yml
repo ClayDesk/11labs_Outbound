@@ -72,17 +72,33 @@ jobs:
           
           echo "API Response: $RESPONSE"
           
-          # Parse response
-          DRIFT_DETECTED=$(echo "$RESPONSE" | jq -r '.driftDetected // false')
-          SUMMARY=$(echo "$RESPONSE" | jq -r '.summary // "No drift detected"')
+          # Parse response - check if status is drift_detected
+          STATUS=$(echo "$RESPONSE" | jq -r '.status // "unknown"')
+          DRIFT_DETECTED="false"
+          if [ "$STATUS" == "drift_detected" ]; then
+            DRIFT_DETECTED="true"
+          fi
+          
+          # Build summary from results
+          HEALTH_SCORE=$(echo "$RESPONSE" | jq -r '.healthScore // 100')
+          TOTAL_LINKS=$(echo "$RESPONSE" | jq -r '.summary.totalCodeLinks // 0')
+          DRIFT_COUNT=$(echo "$RESPONSE" | jq -r '.summary.linksWithDrift // 0')
+          
+          SUMMARY="**Health Score:** $HEALTH_SCORE%\n\n**Code Blocks Checked:** $TOTAL_LINKS\n**Blocks with Drift:** $DRIFT_COUNT"
+          
+          # Get detailed drift info
+          DRIFT_DETAILS=$(echo "$RESPONSE" | jq -r '.results[] | select(.hasDrift == true) | "- **(.codeLink.sectionTitle)** ((.codeLink.filePath):(.codeLink.startLine)-(.codeLink.endLine)): (.diffPreview // "Content changed")"' 2>/dev/null || echo "")
+          if [ -n "$DRIFT_DETAILS" ]; then
+            SUMMARY="$SUMMARY\n\n**Drifted Sections:**\n$DRIFT_DETAILS"
+          fi
           
           echo "drift_detected=$DRIFT_DETECTED" >> $GITHUB_OUTPUT
           echo "summary<<EOF" >> $GITHUB_OUTPUT
-          echo "$SUMMARY" >> $GITHUB_OUTPUT
+          echo -e "$SUMMARY" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
           if [ "$DRIFT_DETECTED" == "true" ]; then
-            echo "⚠️ Documentation drift detected!"
+            echo "⚠️ Documentation drift detected! Health score: $HEALTH_SCORE%"
           else
             echo "✅ Documentation is up to date"
           fi
@@ -102,5 +118,3 @@ jobs:
               repo: context.repo.repo,
               body: body
             });
-
-
