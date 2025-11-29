@@ -28,7 +28,33 @@ fastify.register(fastifyWs);
 
 // Initialize Twilio client
 const twilioClient = Twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
+// Call analytics tracking
+const callAnalytics = {
+  totalCalls: 0,
+  activeCalls: 0,
+  failedCalls: 0,
+};
 
+function trackCallStart() {
+  callAnalytics.totalCalls++;
+  callAnalytics.activeCalls++;
+  console.log(`[Analytics] Call started. Active: ${callAnalytics.activeCalls}, Total: ${callAnalytics.totalCalls}`);
+}
+
+function trackCallEnd() {
+  callAnalytics.activeCalls--;
+  console.log(`[Analytics] Call ended. Active: ${callAnalytics.activeCalls}`);
+}
+
+function trackCallFailed() {
+  callAnalytics.failedCalls++;
+  console.log(`[Analytics] Call failed. Total failures: ${callAnalytics.failedCalls}`);
+}
+
+// Route to get call analytics
+fastify.get("/analytics", async (_, reply) => {
+  reply.send(callAnalytics);
+});
 const PORT = process.env.PORT || 8000;
 
 // Root route for health check
