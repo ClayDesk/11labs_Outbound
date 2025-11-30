@@ -7,10 +7,10 @@
     "isPrivate": false
   },
   "documentation": {
-    "generatedAt": "2025-11-29T16:41:46.483Z",
-    "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+    "generatedAt": "2025-11-30T04:47:27.841Z",
+    "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
     "branch": "main",
-    "totalWordCount": 8433,
+    "totalWordCount": 8867,
     "sectionsCount": 17,
     "techStack": [
       "Node.js",
@@ -25,7 +25,7 @@
     {
       "sectionNumber": 1,
       "title": "Executive Summary",
-      "wordCount": 510,
+      "wordCount": 546,
       "keyTopics": [
         "project overview",
         "business context",
@@ -36,7 +36,7 @@
     {
       "sectionNumber": 2,
       "title": "System Architecture",
-      "wordCount": 498,
+      "wordCount": 557,
       "keyTopics": [
         "Fastify server setup",
         "WebSocket integration",
@@ -49,9 +49,9 @@
           "sectionTitle": "System Architecture",
           "filePath": "index.js",
           "startLine": 1,
-          "endLine": 15,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "c3d91a6edc1cc19d852a1d635dddab6c64f30efa9bf7f56b34e61a303c061845",
+          "endLine": 14,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "be9feb10160b83c6d8e0f23cda98e0735a4a9cc980521df9d0faba99fdc54dc5",
           "codeType": "function"
         },
         {
@@ -60,21 +60,21 @@
           "sectionTitle": "System Architecture",
           "filePath": "index.js",
           "startLine": 6,
-          "endLine": 8,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
-          "codeType": "other"
+          "endLine": 24,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "3ce7b45cebd1c2ccb84f7ea8395da742781329173d0ac05e8cd5e27153cd7f66",
+          "codeType": "function"
         }
       ]
     },
     {
       "sectionNumber": 3,
       "title": "Data Architecture",
-      "wordCount": 480,
+      "wordCount": 518,
       "keyTopics": [
         "call session management",
-        "environment variables",
-        "data validation"
+        "data storage",
+        "environment variables"
       ],
       "codeLinks": [
         {
@@ -84,27 +84,16 @@
           "filePath": "index.js",
           "startLine": 52,
           "endLine": 80,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "e3d9e4d750d676b5936b8af58995a8fa8cf0768d17d473d48d1328ff48db1666",
           "codeType": "class"
-        },
-        {
-          "id": "f5b485e0c8ff",
-          "sectionNumber": 3,
-          "sectionTitle": "Data Architecture",
-          "filePath": "index.js",
-          "startLine": 10,
-          "endLine": 24,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "8397ce59d91efc02e07fbf86eb60179545370c5ab6db31df706193968ce885f2",
-          "codeType": "function"
         }
       ]
     },
     {
       "sectionNumber": 4,
       "title": "Core Features & Workflows",
-      "wordCount": 484,
+      "wordCount": 521,
       "keyTopics": [
         "outbound call integration",
         "real-time media streaming",
@@ -118,8 +107,19 @@
           "filePath": "index.js",
           "startLine": 38,
           "endLine": 54,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "e507535edd46e95448a2c1864857b04528a24b5a6960be132762c11b59f2025f",
+          "codeType": "class"
+        },
+        {
+          "id": "f14bb2bd0acb",
+          "sectionNumber": 4,
+          "sectionTitle": "Core Features & Workflows",
+          "filePath": "index.js",
+          "startLine": 51,
+          "endLine": 70,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "fb9aa78c14a3e1f1913de1e7f418fc6c59af30e9099d9e19f95ff3e88251e558",
           "codeType": "class"
         }
       ]
@@ -127,41 +127,30 @@
     {
       "sectionNumber": 5,
       "title": "API Reference",
-      "wordCount": 434,
+      "wordCount": 465,
       "keyTopics": [
-        "Twilio API endpoints",
-        "authentication",
-        "request/response formats"
+        "Twilio API",
+        "WebSocket endpoints",
+        "authentication"
       ],
       "codeLinks": [
-        {
-          "id": "499e753c5a0c",
-          "sectionNumber": 5,
-          "sectionTitle": "API Reference",
-          "filePath": "README.md",
-          "startLine": 37,
-          "endLine": 40,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
-          "codeType": "other"
-        },
         {
           "id": "217be280d0e6",
           "sectionNumber": 5,
           "sectionTitle": "API Reference",
           "filePath": "index.js",
           "startLine": 6,
-          "endLine": 22,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "2dfdd62874a82dd1318c6e146c720bac39d9cc2ffe8a149ec26374b8432e3514",
-          "codeType": "function"
+          "endLine": 8,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
+          "codeType": "other"
         }
       ]
     },
     {
       "sectionNumber": 6,
       "title": "Security Architecture",
-      "wordCount": 490,
+      "wordCount": 532,
       "keyTopics": [
         "authentication",
         "authorization",
@@ -174,30 +163,30 @@
           "sectionTitle": "Security Architecture",
           "filePath": "index.js",
           "startLine": 9,
-          "endLine": 18,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "685983e6aa200bd21817b6793b4a7a0e3bf619c91812e4d330d6f6bbea10b269",
+          "endLine": 22,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "121d4ad9e2d2114258e948a6deaa1a6cadaae23411f5653a4b40ad92bdb9126c",
           "codeType": "function"
         },
         {
-          "id": "90aa64fd334b",
+          "id": "e2dd5fde7639",
           "sectionNumber": 6,
           "sectionTitle": "Security Architecture",
           "filePath": "index.js",
-          "startLine": 20,
-          "endLine": 24,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "271d78ea1c7889a29afa0bdb303758c9a9de2fcabb7d82ea430bfffbd1aa28ca",
-          "codeType": "other"
+          "startLine": 52,
+          "endLine": 68,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "33c0c1d47c0e69b298f4398c5c604ce02ee1f5fb6339ac2595d298e88616d8c6",
+          "codeType": "class"
         }
       ]
     },
     {
       "sectionNumber": 7,
       "title": "DevOps & Deployment",
-      "wordCount": 460,
+      "wordCount": 491,
       "keyTopics": [
-        "CI/CD setup",
+        "CI/CD",
         "environment configuration",
         "containerization"
       ],
@@ -209,7 +198,7 @@
           "filePath": "index.js",
           "startLine": 3,
           "endLine": 20,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "00f5028306505d593123a022da35bd223872d7b43f952cecbc6860633a42c9e4",
           "codeType": "function"
         }
@@ -218,7 +207,7 @@
     {
       "sectionNumber": 8,
       "title": "Reliability & Performance",
-      "wordCount": 524,
+      "wordCount": 489,
       "keyTopics": [
         "error handling",
         "monitoring",
@@ -232,98 +221,75 @@
           "filePath": "index.js",
           "startLine": 21,
           "endLine": 24,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "13e1f533dd0c7963508cebeef35d7167883a77555941f267b29cbf8d25f7511a",
           "codeType": "other"
         },
         {
-          "id": "e2a6bf81332d",
+          "id": "3ef161e02779",
           "sectionNumber": 8,
           "sectionTitle": "Reliability & Performance",
           "filePath": "index.js",
-          "startLine": 52,
-          "endLine": 68,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "33c0c1d47c0e69b298f4398c5c604ce02ee1f5fb6339ac2595d298e88616d8c6",
-          "codeType": "class"
+          "startLine": 42,
+          "endLine": 49,
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+          "contentHash": "62322d6e77ac366bb5c56479884c8464227b12990dbf0730a2d67e39ee9b92da",
+          "codeType": "function"
         }
       ]
     },
     {
       "sectionNumber": 9,
       "title": "Threat Modeling & Security Analysis",
-      "wordCount": 499,
+      "wordCount": 491,
       "keyTopics": [
         "STRIDE analysis",
         "attack surface",
         "risk assessment"
       ],
-      "codeLinks": [
-        {
-          "id": "835812a70ef3",
-          "sectionNumber": 9,
-          "sectionTitle": "Threat Modeling & Security Analysis",
-          "filePath": "index.js",
-          "startLine": 27,
-          "endLine": 33,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
-          "codeType": "function"
-        },
-        {
-          "id": "a028ba901e67",
-          "sectionNumber": 9,
-          "sectionTitle": "Threat Modeling & Security Analysis",
-          "filePath": "index.js",
-          "startLine": 52,
-          "endLine": 62,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-          "contentHash": "4c337e0f6b1ae6ff8dee92adee6da28e47c6602a70d0a7ed5faab161d245678b",
-          "codeType": "class"
-        }
-      ]
+      "codeLinks": []
     },
     {
       "sectionNumber": 10,
       "title": "Compliance & Regulatory",
-      "wordCount": 446,
+      "wordCount": 634,
       "keyTopics": [
-        "HIPAA compliance",
-        "GDPR requirements",
-        "audit processes"
+        "GDPR",
+        "HIPAA",
+        "audit requirements"
       ],
       "codeLinks": []
     },
     {
       "sectionNumber": 11,
       "title": "Non-Functional Requirements (NFR) Matrix",
-      "wordCount": 621,
+      "wordCount": 562,
       "keyTopics": [
-        "availability targets",
-        "scalability requirements",
-        "performance benchmarks"
+        "availability",
+        "scalability",
+        "performance targets"
       ],
       "codeLinks": []
     },
     {
       "sectionNumber": 12,
       "title": "SLO/SLA/SLI Definitions",
-      "wordCount": 498,
+      "wordCount": 529,
       "keyTopics": [
         "service level objectives",
-        "service level agreements",
-        "service level indicators"
+        "agreements",
+        "indicators"
       ],
       "codeLinks": []
     },
     {
       "sectionNumber": 13,
       "title": "Observability & Monitoring",
-      "wordCount": 489,
+      "wordCount": 499,
       "keyTopics": [
         "logging",
-        "metrics collection",
-        "alerting systems"
+        "metrics",
+        "alerting"
       ],
       "codeLinks": [
         {
@@ -333,7 +299,7 @@
           "filePath": "index.js",
           "startLine": 27,
           "endLine": 33,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
           "codeType": "function"
         },
@@ -344,7 +310,7 @@
           "filePath": "index.js",
           "startLine": 42,
           "endLine": 49,
-          "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+          "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
           "contentHash": "62322d6e77ac366bb5c56479884c8464227b12990dbf0730a2d67e39ee9b92da",
           "codeType": "function"
         }
@@ -353,32 +319,32 @@
     {
       "sectionNumber": 14,
       "title": "Infrastructure as Code (IaC)",
-      "wordCount": 463,
+      "wordCount": 507,
       "keyTopics": [
-        "terraform usage",
-        "kubernetes setup",
-        "docker configuration"
+        "terraform",
+        "kubernetes",
+        "docker"
       ],
       "codeLinks": []
     },
     {
       "sectionNumber": 15,
       "title": "Disaster Recovery & Business Continuity",
-      "wordCount": 526,
+      "wordCount": 498,
       "keyTopics": [
-        "RTO and RPO",
-        "backup strategies",
-        "failover mechanisms"
+        "RTO",
+        "RPO",
+        "backup strategies"
       ],
       "codeLinks": []
     },
     {
       "sectionNumber": 16,
       "title": "Versioning & Release Management",
-      "wordCount": 517,
+      "wordCount": 532,
       "keyTopics": [
         "semantic versioning",
-        "branching strategy",
+        "branching",
         "release process"
       ],
       "codeLinks": []
@@ -386,11 +352,11 @@
     {
       "sectionNumber": 17,
       "title": "Future Roadmap",
-      "wordCount": 494,
+      "wordCount": 496,
       "keyTopics": [
-        "current limitations",
-        "potential improvements",
-        "future suggestions"
+        "limitations",
+        "improvements",
+        "suggestions"
       ],
       "codeLinks": []
     }
@@ -402,9 +368,9 @@
       "sectionTitle": "System Architecture",
       "filePath": "index.js",
       "startLine": 1,
-      "endLine": 15,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "c3d91a6edc1cc19d852a1d635dddab6c64f30efa9bf7f56b34e61a303c061845",
+      "endLine": 14,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "be9feb10160b83c6d8e0f23cda98e0735a4a9cc980521df9d0faba99fdc54dc5",
       "codeType": "function"
     },
     {
@@ -413,10 +379,10 @@
       "sectionTitle": "System Architecture",
       "filePath": "index.js",
       "startLine": 6,
-      "endLine": 8,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
-      "codeType": "other"
+      "endLine": 24,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "3ce7b45cebd1c2ccb84f7ea8395da742781329173d0ac05e8cd5e27153cd7f66",
+      "codeType": "function"
     },
     {
       "id": "0366a89bb002",
@@ -425,20 +391,9 @@
       "filePath": "index.js",
       "startLine": 52,
       "endLine": 80,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "e3d9e4d750d676b5936b8af58995a8fa8cf0768d17d473d48d1328ff48db1666",
       "codeType": "class"
-    },
-    {
-      "id": "f5b485e0c8ff",
-      "sectionNumber": 3,
-      "sectionTitle": "Data Architecture",
-      "filePath": "index.js",
-      "startLine": 10,
-      "endLine": 24,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "8397ce59d91efc02e07fbf86eb60179545370c5ab6db31df706193968ce885f2",
-      "codeType": "function"
     },
     {
       "id": "cbc678d92180",
@@ -447,20 +402,20 @@
       "filePath": "index.js",
       "startLine": 38,
       "endLine": 54,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "e507535edd46e95448a2c1864857b04528a24b5a6960be132762c11b59f2025f",
       "codeType": "class"
     },
     {
-      "id": "499e753c5a0c",
-      "sectionNumber": 5,
-      "sectionTitle": "API Reference",
-      "filePath": "README.md",
-      "startLine": 37,
-      "endLine": 40,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
-      "codeType": "other"
+      "id": "f14bb2bd0acb",
+      "sectionNumber": 4,
+      "sectionTitle": "Core Features & Workflows",
+      "filePath": "index.js",
+      "startLine": 51,
+      "endLine": 70,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "fb9aa78c14a3e1f1913de1e7f418fc6c59af30e9099d9e19f95ff3e88251e558",
+      "codeType": "class"
     },
     {
       "id": "217be280d0e6",
@@ -468,10 +423,10 @@
       "sectionTitle": "API Reference",
       "filePath": "index.js",
       "startLine": 6,
-      "endLine": 22,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "2dfdd62874a82dd1318c6e146c720bac39d9cc2ffe8a149ec26374b8432e3514",
-      "codeType": "function"
+      "endLine": 8,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
+      "codeType": "other"
     },
     {
       "id": "1c68c4aa8413",
@@ -479,21 +434,21 @@
       "sectionTitle": "Security Architecture",
       "filePath": "index.js",
       "startLine": 9,
-      "endLine": 18,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "685983e6aa200bd21817b6793b4a7a0e3bf619c91812e4d330d6f6bbea10b269",
+      "endLine": 22,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "121d4ad9e2d2114258e948a6deaa1a6cadaae23411f5653a4b40ad92bdb9126c",
       "codeType": "function"
     },
     {
-      "id": "90aa64fd334b",
+      "id": "e2dd5fde7639",
       "sectionNumber": 6,
       "sectionTitle": "Security Architecture",
       "filePath": "index.js",
-      "startLine": 20,
-      "endLine": 24,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "271d78ea1c7889a29afa0bdb303758c9a9de2fcabb7d82ea430bfffbd1aa28ca",
-      "codeType": "other"
+      "startLine": 52,
+      "endLine": 68,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "33c0c1d47c0e69b298f4398c5c604ce02ee1f5fb6339ac2595d298e88616d8c6",
+      "codeType": "class"
     },
     {
       "id": "0ba4a4fc8c7d",
@@ -502,7 +457,7 @@
       "filePath": "index.js",
       "startLine": 3,
       "endLine": 20,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "00f5028306505d593123a022da35bd223872d7b43f952cecbc6860633a42c9e4",
       "codeType": "function"
     },
@@ -513,42 +468,20 @@
       "filePath": "index.js",
       "startLine": 21,
       "endLine": 24,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "13e1f533dd0c7963508cebeef35d7167883a77555941f267b29cbf8d25f7511a",
       "codeType": "other"
     },
     {
-      "id": "e2a6bf81332d",
+      "id": "3ef161e02779",
       "sectionNumber": 8,
       "sectionTitle": "Reliability & Performance",
       "filePath": "index.js",
-      "startLine": 52,
-      "endLine": 68,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "33c0c1d47c0e69b298f4398c5c604ce02ee1f5fb6339ac2595d298e88616d8c6",
-      "codeType": "class"
-    },
-    {
-      "id": "835812a70ef3",
-      "sectionNumber": 9,
-      "sectionTitle": "Threat Modeling & Security Analysis",
-      "filePath": "index.js",
-      "startLine": 27,
-      "endLine": 33,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
+      "startLine": 42,
+      "endLine": 49,
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
+      "contentHash": "62322d6e77ac366bb5c56479884c8464227b12990dbf0730a2d67e39ee9b92da",
       "codeType": "function"
-    },
-    {
-      "id": "a028ba901e67",
-      "sectionNumber": 9,
-      "sectionTitle": "Threat Modeling & Security Analysis",
-      "filePath": "index.js",
-      "startLine": 52,
-      "endLine": 62,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
-      "contentHash": "4c337e0f6b1ae6ff8dee92adee6da28e47c6602a70d0a7ed5faab161d245678b",
-      "codeType": "class"
     },
     {
       "id": "f16dd05b5090",
@@ -557,7 +490,7 @@
       "filePath": "index.js",
       "startLine": 27,
       "endLine": 33,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
       "codeType": "function"
     },
@@ -568,13 +501,13 @@
       "filePath": "index.js",
       "startLine": 42,
       "endLine": 49,
-      "commitHash": "352238ac09f5afc05593ee47bb0607d306a2bb08",
+      "commitHash": "1cc32e950c5ff1940d90a2e80c40eb6fa8af2cb9",
       "contentHash": "62322d6e77ac366bb5c56479884c8464227b12990dbf0730a2d67e39ee9b92da",
       "codeType": "function"
     }
   ],
   "checksum": {
-    "manifestHash": "7f196258fb73832560ab705d6bebb4e64715c21308236c702fffab4eaebf00f2",
-    "combinedCodeHash": "a5bb82fc65a043c5ffac9c3c3b60b25ea36b72530fb2be8151e38e85c3cb4f88"
+    "manifestHash": "1db1c611a80743e0c39145951642f65000b3dd1c8a01cee484e27aee784dfcff",
+    "combinedCodeHash": "990c48c0e0c6ea76f01cdc35090ce4af793fd0f1bb103aa946f1e7fbad46732b"
   }
 }
