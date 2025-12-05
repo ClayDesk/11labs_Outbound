@@ -7,10 +7,10 @@
     "isPrivate": false
   },
   "documentation": {
-    "generatedAt": "2025-12-05T18:03:58.644Z",
-    "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+    "generatedAt": "2025-12-05T19:14:23.322Z",
+    "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
     "branch": "main",
-    "totalWordCount": 1906,
+    "totalWordCount": 1868,
     "sectionsCount": 4,
     "techStack": [
       "Node.js",
@@ -25,7 +25,7 @@
     {
       "sectionNumber": 1,
       "title": "Executive Summary",
-      "wordCount": 511,
+      "wordCount": 508,
       "keyTopics": [
         "project overview",
         "business context",
@@ -36,7 +36,7 @@
     {
       "sectionNumber": 4,
       "title": "Core Features & Workflows",
-      "wordCount": 478,
+      "wordCount": 453,
       "keyTopics": [
         "Fastify server setup",
         "WebSocket integration",
@@ -50,7 +50,7 @@
           "filePath": "index.js",
           "startLine": 1,
           "endLine": 14,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
           "contentHash": "be9feb10160b83c6d8e0f23cda98e0735a4a9cc980521df9d0faba99fdc54dc5",
           "codeType": "function"
         },
@@ -61,20 +61,31 @@
           "filePath": "index.js",
           "startLine": 6,
           "endLine": 8,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
           "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
           "codeType": "other"
+        },
+        {
+          "id": "5b2b99513008",
+          "sectionNumber": 4,
+          "sectionTitle": "Core Features & Workflows",
+          "filePath": "index.js",
+          "startLine": 52,
+          "endLine": 70,
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
+          "contentHash": "f4e10e07f4ec9602d77d566ebc5b8c7afdfb73c93b39d0147911263e29a409d9",
+          "codeType": "class"
         }
       ]
     },
     {
       "sectionNumber": 5,
       "title": "API Reference",
-      "wordCount": 472,
+      "wordCount": 458,
       "keyTopics": [
         "environment variable management",
         "error handling",
-        "server logging"
+        "logging configuration"
       ],
       "codeLinks": [
         {
@@ -84,7 +95,7 @@
           "filePath": "README.md",
           "startLine": 37,
           "endLine": 41,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
           "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
           "codeType": "other"
         },
@@ -95,20 +106,9 @@
           "filePath": "index.js",
           "startLine": 21,
           "endLine": 24,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
           "contentHash": "13e1f533dd0c7963508cebeef35d7167883a77555941f267b29cbf8d25f7511a",
           "codeType": "other"
-        },
-        {
-          "id": "735ef98b2836",
-          "sectionNumber": 5,
-          "sectionTitle": "API Reference",
-          "filePath": "index.js",
-          "startLine": 52,
-          "endLine": 59,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
-          "contentHash": "aa9ee0655fd8007de176282e523657b7c663512269462655a8a9d12b43ecd7e0",
-          "codeType": "class"
         },
         {
           "id": "d41fb297f7e8",
@@ -117,7 +117,7 @@
           "filePath": "index.js",
           "startLine": 27,
           "endLine": 33,
-          "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+          "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
           "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
           "codeType": "function"
         }
@@ -126,11 +126,11 @@
     {
       "sectionNumber": 17,
       "title": "Future Roadmap",
-      "wordCount": 445,
+      "wordCount": 449,
       "keyTopics": [
         "real-time media streaming",
-        "AI conversation dynamics",
-        "outbound call initiation"
+        "AI-powered conversations",
+        "call control and monitoring"
       ],
       "codeLinks": []
     }
@@ -143,7 +143,7 @@
       "filePath": "index.js",
       "startLine": 1,
       "endLine": 14,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
       "contentHash": "be9feb10160b83c6d8e0f23cda98e0735a4a9cc980521df9d0faba99fdc54dc5",
       "codeType": "function"
     },
@@ -154,9 +154,20 @@
       "filePath": "index.js",
       "startLine": 6,
       "endLine": 8,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
       "contentHash": "80fb35a501345db0cb69d327ab51168e467a7174063d1df1aa9657d8f510192c",
       "codeType": "other"
+    },
+    {
+      "id": "5b2b99513008",
+      "sectionNumber": 4,
+      "sectionTitle": "Core Features & Workflows",
+      "filePath": "index.js",
+      "startLine": 52,
+      "endLine": 70,
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
+      "contentHash": "f4e10e07f4ec9602d77d566ebc5b8c7afdfb73c93b39d0147911263e29a409d9",
+      "codeType": "class"
     },
     {
       "id": "499e753c5a0c",
@@ -165,7 +176,7 @@
       "filePath": "README.md",
       "startLine": 37,
       "endLine": 41,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
       "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
       "codeType": "other"
     },
@@ -176,20 +187,9 @@
       "filePath": "index.js",
       "startLine": 21,
       "endLine": 24,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
       "contentHash": "13e1f533dd0c7963508cebeef35d7167883a77555941f267b29cbf8d25f7511a",
       "codeType": "other"
-    },
-    {
-      "id": "735ef98b2836",
-      "sectionNumber": 5,
-      "sectionTitle": "API Reference",
-      "filePath": "index.js",
-      "startLine": 52,
-      "endLine": 59,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
-      "contentHash": "aa9ee0655fd8007de176282e523657b7c663512269462655a8a9d12b43ecd7e0",
-      "codeType": "class"
     },
     {
       "id": "d41fb297f7e8",
@@ -198,13 +198,13 @@
       "filePath": "index.js",
       "startLine": 27,
       "endLine": 33,
-      "commitHash": "ab0c545ff449db835449ba961661e516553b32d1",
+      "commitHash": "a287c70365f3995c3613ee7588c5e2acfdb8025e",
       "contentHash": "fb95efcc66e31403f09b3a1ba4c4128ee67cf60b4adf39f5cf7d59b083543f3e",
       "codeType": "function"
     }
   ],
   "checksum": {
-    "manifestHash": "b708327c8781bbeb710e17f55e917f01583a1fc7cb5e37b21e079ba5553f878a",
-    "combinedCodeHash": "b5a3e42811b41058623d89f08c5bcc824f3f30ef85ac78011f458908995debf1"
+    "manifestHash": "5001768f25fb9d23547ad9efb91b43ee52de46e00b730e4e966fb8fd2e6346be",
+    "combinedCodeHash": "82fbe7291b43b7173826a476afc3fe3b3344b9606996bb3c64ea25b60fce0504"
   }
 }
