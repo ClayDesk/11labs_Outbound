@@ -35,6 +35,22 @@ const fastify = Fastify({
 fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
+// Call rate limiter
+const rateLimiter = {
+  maxCallsPerMinute: 10,
+  callTimestamps: [],
+};
+
+function canMakeCall() {
+  const now = Date.now();
+  // Remove timestamps older than 1 minute
+  rateLimiter.callTimestamps = rateLimiter.callTimestamps.filter(t => now - t < 60000);
+  return rateLimiter.callTimestamps.length < rateLimiter.maxCallsPerMinute;
+}
+
+function recordCallAttempt() {
+  rateLimiter.callTimestamps.push(Date.now());
+}
 // Initialize Twilio client
 const twilioClient = Twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
@@ -496,3 +512,4 @@ fastify.listen({ port: PORT, host: "0.0.0.0" }, (err) => {
   console.log(`[Server] Health check: http://localhost:${PORT}/`);
   console.log(`[Server] Analytics: http://localhost:${PORT}/analytics`);
 });
+
