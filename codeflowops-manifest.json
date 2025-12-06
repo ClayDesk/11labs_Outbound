@@ -7,10 +7,10 @@
     "isPrivate": false
   },
   "documentation": {
-    "generatedAt": "2025-12-06T15:57:33.888Z",
-    "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
+    "generatedAt": "2025-12-06T16:33:44.523Z",
+    "commitHash": "edd1d37dbfa691cb0ef4858b2a1121901f7b0b98",
     "branch": "main",
-    "totalWordCount": 1897,
+    "totalWordCount": 1907,
     "sectionsCount": 4,
     "techStack": [
       "Node.js",
@@ -25,7 +25,7 @@
     {
       "sectionNumber": 1,
       "title": "Executive Summary",
-      "wordCount": 512,
+      "wordCount": 532,
       "keyTopics": [
         "project overview",
         "business context",
@@ -36,7 +36,7 @@
     {
       "sectionNumber": 4,
       "title": "Core Features & Workflows",
-      "wordCount": 461,
+      "wordCount": 483,
       "keyTopics": [
         "Fastify server setup",
         "WebSocket integration",
@@ -47,7 +47,7 @@
     {
       "sectionNumber": 5,
       "title": "API Reference",
-      "wordCount": 458,
+      "wordCount": 420,
       "keyTopics": [
         "real-time media streaming",
         "AI-powered conversations",
@@ -60,9 +60,9 @@
           "sectionTitle": "API Reference",
           "filePath": "README.md",
           "startLine": 37,
-          "endLine": 41,
-          "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
-          "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
+          "endLine": 40,
+          "commitHash": "edd1d37dbfa691cb0ef4858b2a1121901f7b0b98",
+          "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
           "codeType": "other"
         }
       ]
@@ -70,11 +70,11 @@
     {
       "sectionNumber": 17,
       "title": "Future Roadmap",
-      "wordCount": 466,
+      "wordCount": 472,
       "keyTopics": [
         "simple API setup",
-        "deployment instructions",
-        "repository cloning"
+        "configuration and deployment",
+        "call control and monitoring"
       ],
       "codeLinks": []
     }
@@ -86,14 +86,14 @@
       "sectionTitle": "API Reference",
       "filePath": "README.md",
       "startLine": 37,
-      "endLine": 41,
-      "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
-      "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
+      "endLine": 40,
+      "commitHash": "edd1d37dbfa691cb0ef4858b2a1121901f7b0b98",
+      "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
       "codeType": "other"
     }
   ],
   "checksum": {
-    "manifestHash": "de60a9a502c5020326523a069b6152e3b8e26e8b0296d9a47725a55423646bad",
-    "combinedCodeHash": "33a33302be0dcf3b1c7fce37f243a2b3d686ed2ece898422eda1be010548b887"
+    "manifestHash": "823776ced2f58e38e269b1979af4e6df434e9071e49112226d4cfb8ecd60e0ce",
+    "combinedCodeHash": "2ea6176a7b970d737a4306cc43f659febe5c89ac68c193bd6e24b700af52e78f"
   }
 }
