@@ -7,10 +7,10 @@
     "isPrivate": false
   },
   "documentation": {
-    "generatedAt": "2025-12-06T12:24:27.333Z",
-    "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
+    "generatedAt": "2025-12-06T15:57:33.888Z",
+    "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
     "branch": "main",
-    "totalWordCount": 1881,
+    "totalWordCount": 1897,
     "sectionsCount": 4,
     "techStack": [
       "Node.js",
@@ -25,7 +25,7 @@
     {
       "sectionNumber": 1,
       "title": "Executive Summary",
-      "wordCount": 544,
+      "wordCount": 512,
       "keyTopics": [
         "project overview",
         "business context",
@@ -36,7 +36,7 @@
     {
       "sectionNumber": 4,
       "title": "Core Features & Workflows",
-      "wordCount": 450,
+      "wordCount": 461,
       "keyTopics": [
         "Fastify server setup",
         "WebSocket integration",
@@ -47,7 +47,7 @@
     {
       "sectionNumber": 5,
       "title": "API Reference",
-      "wordCount": 436,
+      "wordCount": 458,
       "keyTopics": [
         "real-time media streaming",
         "AI-powered conversations",
@@ -60,9 +60,9 @@
           "sectionTitle": "API Reference",
           "filePath": "README.md",
           "startLine": 37,
-          "endLine": 40,
-          "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
-          "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
+          "endLine": 41,
+          "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
+          "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
           "codeType": "other"
         }
       ]
@@ -70,7 +70,7 @@
     {
       "sectionNumber": 17,
       "title": "Future Roadmap",
-      "wordCount": 451,
+      "wordCount": 466,
       "keyTopics": [
         "simple API setup",
         "deployment instructions",
@@ -86,14 +86,14 @@
       "sectionTitle": "API Reference",
       "filePath": "README.md",
       "startLine": 37,
-      "endLine": 40,
-      "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
-      "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
+      "endLine": 41,
+      "commitHash": "7cce9e307e9e8f54c8df55144c428b6703589a2d",
+      "contentHash": "3f0705d542e6537565831b4f1e98005bd956bcb5923c67a9e67624892c759495",
       "codeType": "other"
     }
   ],
   "checksum": {
-    "manifestHash": "1e15e114d07b5c3897c0934179cb7aedb54406b330529e2c0f7fcf569d51d874",
-    "combinedCodeHash": "2ea6176a7b970d737a4306cc43f659febe5c89ac68c193bd6e24b700af52e78f"
+    "manifestHash": "de60a9a502c5020326523a069b6152e3b8e26e8b0296d9a47725a55423646bad",
+    "combinedCodeHash": "33a33302be0dcf3b1c7fce37f243a2b3d686ed2ece898422eda1be010548b887"
   }
 }
