@@ -7,10 +7,10 @@
     "isPrivate": false
   },
   "documentation": {
-    "generatedAt": "2025-12-06T12:17:23.935Z",
-    "commitHash": "7d96dca88f5dbf5fe02496b7af1ba2a287b49f46",
+    "generatedAt": "2025-12-06T12:24:27.333Z",
+    "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
     "branch": "main",
-    "totalWordCount": 1902,
+    "totalWordCount": 1881,
     "sectionsCount": 4,
     "techStack": [
       "Node.js",
@@ -25,7 +25,7 @@
     {
       "sectionNumber": 1,
       "title": "Executive Summary",
-      "wordCount": 533,
+      "wordCount": 544,
       "keyTopics": [
         "project overview",
         "business context",
@@ -36,7 +36,7 @@
     {
       "sectionNumber": 4,
       "title": "Core Features & Workflows",
-      "wordCount": 498,
+      "wordCount": 450,
       "keyTopics": [
         "Fastify server setup",
         "WebSocket integration",
@@ -47,18 +47,30 @@
     {
       "sectionNumber": 5,
       "title": "API Reference",
-      "wordCount": 421,
+      "wordCount": 436,
       "keyTopics": [
         "real-time media streaming",
         "AI-powered conversations",
         "outbound call integration"
       ],
-      "codeLinks": []
+      "codeLinks": [
+        {
+          "id": "499e753c5a0c",
+          "sectionNumber": 5,
+          "sectionTitle": "API Reference",
+          "filePath": "README.md",
+          "startLine": 37,
+          "endLine": 40,
+          "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
+          "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
+          "codeType": "other"
+        }
+      ]
     },
     {
       "sectionNumber": 17,
       "title": "Future Roadmap",
-      "wordCount": 450,
+      "wordCount": 451,
       "keyTopics": [
         "simple API setup",
         "deployment instructions",
@@ -67,9 +79,21 @@
       "codeLinks": []
     }
   ],
-  "allCodeLinks": [],
+  "allCodeLinks": [
+    {
+      "id": "499e753c5a0c",
+      "sectionNumber": 5,
+      "sectionTitle": "API Reference",
+      "filePath": "README.md",
+      "startLine": 37,
+      "endLine": 40,
+      "commitHash": "5a5d98add8ebe5ee56cf32e37103b689f0438e31",
+      "contentHash": "82def319979ba7501fbbe8863ea3bba7e69497947e4522e6f6054230120df935",
+      "codeType": "other"
+    }
+  ],
   "checksum": {
-    "manifestHash": "3e022d54713496b150bd5d08b164bbc521e632521608e7bbd2d24b92685a38b2",
-    "combinedCodeHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "manifestHash": "1e15e114d07b5c3897c0934179cb7aedb54406b330529e2c0f7fcf569d51d874",
+    "combinedCodeHash": "2ea6176a7b970d737a4306cc43f659febe5c89ac68c193bd6e24b700af52e78f"
   }
 }
